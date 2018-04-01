@@ -1,0 +1,22 @@
+{
+  "name": "rwd_hotel",
+  "version": "1.0.0",
+  "description": "Fronend web responsive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lKyoto/rwd_hotel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lKyoto/rwd_hotel/issues"
+  },
+  "homepage": "https://github.com/lKyoto/rwd_hotel#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
