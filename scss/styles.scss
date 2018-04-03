@@ -1,8 +1,8 @@
 //Color
 
-$color_1: #ffa500;
-$color_2: #924992;
-$color_3: #515077;
+$color_1: #e42d40;
+$color_2: #80c9c6;
+$color_3: #1792a4;
 $black:#2b2b2b;
 $white: #fff;
 
@@ -30,3 +30,4 @@ $max_width: 1200px;
 @import "components/base";
 @import "components/header";
 @import "components/menu-nav";
+@import "components/banner";

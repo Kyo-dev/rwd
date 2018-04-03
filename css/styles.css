@@ -22,7 +22,7 @@ a {
   text-decoration: none; }
 
 .main-header {
-  background-color: #515077; }
+  background-color: #1792a4; }
   .main-header .l-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -35,18 +35,21 @@ a {
   width: 11%; }
 
 .main-nav {
-  background-color: #ffa500;
+  background-color: #e42d40;
   position: fixed;
   top: 0;
-  right: 0;
-  width: 12em; }
+  right: -12em;
+  width: 12em;
+  height: 100vh; }
 
 .main-menu {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  line-height: 100vh; }
   .main-menu__link {
-    line-height: 2;
+    line-height: 3;
     display: block;
     text-transform: uppercase;
-    font-family: "Lato", sans-serif; }
+    font-family: "Lato", sans-serif;
+    border-bottom: 1px solid #80c9c6; }
