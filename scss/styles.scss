@@ -1,0 +1,27 @@
+//Color
+
+$color_1: lightgreen;
+$color_2: lightblue;
+$color_3: navy;
+$black:#2b2b2b;
+$white: #fff;
+
+
+//fonts
+    //title
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+$font-title: 'Open Sans', sans-serif;
+
+    //content
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+$font-text: 'Lato', sans-serif;
+
+//font-weight
+$light: 300;
+$normal: 400;
+
+//Layout
+$max_width: 1200px;
+
+//@import
+@import "components/base";
