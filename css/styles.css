@@ -21,15 +21,6 @@ img {
 a {
   text-decoration: none; }
 
-/*
-<header class="main-header">
-        <div class="l-container">
-            <img src="" alt="" class="main-header-logo">
-            <nav class="main-nav">
-            </nav>
-        </div>
-    </header>
-*/
 .main-header {
   background-color: #515077; }
   .main-header .l-container {
@@ -42,3 +33,20 @@ a {
 
 .main-header-logo {
   width: 11%; }
+
+.main-nav {
+  background-color: #ffa500;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 12em; }
+
+.main-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .main-menu__link {
+    line-height: 2;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif; }
