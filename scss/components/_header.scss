@@ -1,10 +1,12 @@
 .main-header {
-    background-color: $color_3;
+    background-color: $color_1;
+    opacity: .9;
     .l-container {
         display: flex;
         justify-content: space-between;
     }
 }
-.main-header-logo{
+
+.main-header__logo {
     width: 11%;
 }

@@ -1,5 +1,15 @@
 .main-banner{
     position: relative;
+    &:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $black;
+        opacity: .6;
+    }
     &__img{
         display: block;
     }
@@ -10,16 +20,18 @@
         transform: translate(-50%,-50%);
         width: 80%;
         text-align: center;
+        z-index: 100;
+        color: $white;
         &__title{
             font-size: 1.8em;
-            margin: 0;
+            margin: 0;  
         }
         &__content{
             font-size: 1.3em;
             margin: 0;
         }
         &__buttom{
-
+            font-size: .8em;
         }
     }
 
