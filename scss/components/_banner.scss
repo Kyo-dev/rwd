@@ -1,0 +1,26 @@
+.main-banner{
+    position: relative;
+    &__img{
+        display: block;
+    }
+    &__copy{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+        text-align: center;
+        &__title{
+            font-size: 1.8em;
+            margin: 0;
+        }
+        &__content{
+            font-size: 1.3em;
+            margin: 0;
+        }
+        &__buttom{
+
+        }
+    }
+
+}

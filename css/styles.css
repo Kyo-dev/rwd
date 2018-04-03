@@ -22,7 +22,7 @@ a {
   text-decoration: none; }
 
 .main-header {
-  background-color: #1792a4; }
+  background-color: #118AB2; }
   .main-header .l-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -35,7 +35,7 @@ a {
   width: 11%; }
 
 .main-nav {
-  background-color: #e42d40;
+  background-color: #402A13;
   position: fixed;
   top: 0;
   right: -12em;
@@ -48,8 +48,47 @@ a {
   padding: 0;
   line-height: 100vh; }
   .main-menu__link {
+    color: #FFA74C;
     line-height: 3;
     display: block;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    border-bottom: 1px solid #80c9c6; }
+    border-bottom: 1px solid #FFA74C; }
+
+.main-banner {
+  position: relative; }
+  .main-banner__img {
+    display: block; }
+  .main-banner__copy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center; }
+    .main-banner__copy__title {
+      font-size: 1.8em;
+      margin: 0; }
+    .main-banner__copy__content {
+      font-size: 1.3em;
+      margin: 0; }
+
+.buttom {
+  display: inline-block;
+  line-height: 2.4;
+  padding: 0 1.1em;
+  margin: .5em 0;
+  color: #fff; }
+  .buttom.primary {
+    background-color: #402A13; }
+    .buttom.primary:hover {
+      background: #2c1d0d; }
+  .buttom.secundary {
+    background-color: #FFA74C; }
+    .buttom.secundary:hover {
+      background: #ff9a33; }
+  .buttom.third {
+    background-color: #118AB2; }
+  .buttom:hover {
+    background: #0f789b; }
