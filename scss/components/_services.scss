@@ -1,0 +1,17 @@
+.main-services {
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10em;
+        margin: 0;
+        &:nth-of-type(2) {
+            background: $color_2;
+            color: $white;
+        }
+        &:nth-of-type(3){
+            background: $color_3;
+            
+        }
+    }
+}
