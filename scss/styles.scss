@@ -16,15 +16,30 @@ $font-title: 'Open Sans', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 $font-text: 'Lato', sans-serif;
 
+$font-icon: font;
 //font-weight
+
 $light: 300;
 $normal: 400;
 
 //Canvas
-
 $canvas_header_menu: 12em;
 //Layout
+
 $max_width: 1200px;
+
+// Breakpoints
+$SMALL: 480px;
+$MEDIUM: 768px;
+$LARGE: 1025;
+$XL: 1400;
+
+// mixin media-query
+@mixin from($size){
+    @media screen and (min-width: $size) {
+        @content; 
+    }
+}
 
 //@import
 @import "components/base";
@@ -35,3 +50,4 @@ $max_width: 1200px;
 @import "components/buttom";
 @import "components/services";
 @import "components/room";
+@import "components/footer";
