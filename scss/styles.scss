@@ -31,8 +31,9 @@ $max_width: 1200px;
 // Breakpoints
 $SMALL: 480px;
 $MEDIUM: 768px;
-$LARGE: 1025;
-$XL: 1400;
+$LARGE: 1025px;
+$XL: 1400px;
+$XLL: 2040px
 
 // mixin media-query
 @mixin from($size){
