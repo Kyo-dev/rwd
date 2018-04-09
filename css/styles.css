@@ -148,8 +148,8 @@ a {
   border: 2px solid rgba(64, 42, 19, 0.3); }
   @media screen and (min-width: 480px) {
     .main-option__item {
-      width: calc(50% - 1em);
-      margin-bottom: 1em; } }
+      margin: 0 0 1em;
+      width: calc(50% - .5em); } }
   .main-option__item__img {
     width: 60%;
     display: block;

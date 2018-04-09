@@ -16,8 +16,8 @@
     padding: 2em 0;
     border: 2px solid rgba($color_1,0.3);
     @include from ($SMALL){
-        width: calc(50% - 1em);
-        margin-bottom: 1em;
+        margin: 0 0 1em;
+        width: calc(50% - .5em);
     }
     &__img{
         //imagine container
