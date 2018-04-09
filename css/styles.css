@@ -84,6 +84,9 @@ a {
     .main-banner__copy__title {
       font-size: 1.8em;
       margin: 0; }
+      @media screen and (min-width: 1025px) {
+        .main-banner__copy__title {
+          font-size: 3.5em; } }
     .main-banner__copy__content {
       font-size: 1.3em;
       margin: 0; }
