@@ -1,0 +1,36 @@
+.main-option{
+    @include from($SMALL){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+.main-option__item{
+    //singular container
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba($black,.07);
+    margin-bottom: 2em;
+    margin-top: 4em;
+    text-align: center;
+    padding: 2em 0;
+    border: 2px solid rgba($color_1,0.3);
+    @include from ($SMALL){
+        width: calc(50% - 1em);
+        margin-bottom: 1em;
+    }
+    &__img{
+        //imagine container
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 4px solid $color_2;
+        border-radius: 100%; 
+    }
+    &__link{
+        //buttom container
+        font-size: .9em;
+        margin-top: 1.5em;
+    }
+}
